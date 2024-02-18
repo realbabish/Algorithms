@@ -11,7 +11,7 @@ class Stack:
 
     def pop(self):
         index = len(self.items) - 1
-        self.items.pop()
+        del self.items[index]
 
     def top_element(self):
         index = len(self.items) - 1
